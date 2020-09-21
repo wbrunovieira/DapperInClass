@@ -6,5 +6,7 @@ namespace DapperInClass
         public Department()
         {
         }
+        public int DepartmentID { get; set; }
+        public string Name { get; set; }
     }
 }
